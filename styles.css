@@ -6,3 +6,20 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+  .asciidoc-rendered {
+    padding: 1em;
+    background: var(--background-primary);
+    color: var(--text-normal);
+  }
+  
+  .asciidoc-rendered h1,
+  .asciidoc-rendered h2,
+  .asciidoc-rendered h3 {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  
+  .asciidoc-rendered p {
+    margin: 0.5em 0;
+  }
