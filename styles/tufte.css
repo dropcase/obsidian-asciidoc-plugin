@@ -1,0 +1,27 @@
+.asciidoc-preview {
+    font-family: "ETBembo", "Georgia", serif;
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fdfdfd;
+    padding: 2rem;
+    color: #111;
+}
+.asciidoc-rendered {
+    font-family: "et-book", serif;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #111;
+    background-color: #fdfdfd;
+    padding: 2em;
+    max-width: 700px;
+    margin: auto;
+}
+.asciidoc-rendered h1, .asciidoc-rendered h2 {
+    font-weight: normal;
+    font-style: italic;
+    border: none;
+}
+.asciidoc-rendered p {
+    text-align: justify;
+    text-justify: inter-word;
+}

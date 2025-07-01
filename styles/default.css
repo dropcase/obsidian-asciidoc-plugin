@@ -1,0 +1,19 @@
+.asciidoc-preview {
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    color: #333;
+}
+.asciidoc-rendered {
+    padding: 1em;
+    line-height: 1.6;
+    font-size: 1em;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+.asciidoc-rendered h1, .asciidoc-rendered h2, .asciidoc-rendered h3 {
+margin-top: 1em;
+font-weight: bold;
+}
+.asciidoc-rendered p {
+margin: 0.5em 0;
+}
