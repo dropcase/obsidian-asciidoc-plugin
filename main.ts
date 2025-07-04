@@ -2,10 +2,10 @@ import { Plugin } from 'obsidian';
 import { DEFAULT_SETTINGS, AsciiDocSettings } from './src/types';
 import { AsciiDocSettingTab } from './src/settings';
 import { injectTheme } from './src/theme';
-import { registerProcessors } from './src/renderer';
+import { registerProcessors } from './src/render';
 
 export default class AsciiDocPlugin extends Plugin {
-  settings: AsciiDocSettings;
+  settings!: AsciiDocSettings;
 
   async onload() {
     console.log('AsciiDoc plugin loaded');
